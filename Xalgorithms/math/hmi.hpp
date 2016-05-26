@@ -4,7 +4,7 @@
 namespace Xalgorithms {
 
 	template <typename T>
-	int ile(T rozmiar, T *tabl, T szuk)// parametry: rozmiar tablicy, tablica, szukany elemet
+	int ile(T rozmiar, T *tabl, T szuk)	// parametry: rozmiar tablicy, tablica, szukany elemet
 	{
 		int wynik = 0;	//ile znalezionych
 

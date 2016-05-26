@@ -112,9 +112,15 @@
   <ItemGroup>
     <ClInclude Include="math.hpp" />
     <ClInclude Include="math\abs.hpp" />
+    <ClInclude Include="math\arithmeticaverage.hpp" />
     <ClInclude Include="math\arraysum.hpp" />
+    <ClInclude Include="math\binsearch.hpp" />
+    <ClInclude Include="math\digitsum.hpp" />
     <ClInclude Include="math\hmi.hpp" />
     <ClInclude Include="math\minmax.hpp" />
+    <ClInclude Include="math\search.hpp" />
+    <ClInclude Include="string.hpp" />
+    <ClInclude Include="strings\up_lower_case_string.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
