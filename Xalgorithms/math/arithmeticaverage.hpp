@@ -12,7 +12,7 @@ namespace Xalgorithms {
 			wynik += tabl[x];
 
 		//return wynik / ilosc;	//zwroc sume liczb podzielona przez ich ilosc
-		return wynik / (sizeof(tabl) / sizeof(p[0]));	//nie wiem czy dzia³a
+		return wynik / (sizeof(tabl) / sizeof(tabl[0]));	//nie wiem czy dzia³a
 		
 	}
 

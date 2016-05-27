@@ -4,11 +4,11 @@ namespace Xalgorithms {
 
 	//szukanie binarne
 	template<typename T>
-	int binSearch(const T& x, const T* array, size_t size)
+	int binSearch(const T& x, const T* array)
 	{
 		// Zainicjalizuj zmienne pomocnicze: lewy, prawy
 		int l = 0;
-		int p = size - 1; 
+		int p = (sizeof(array) / sizeof(array[0])) - 1;
 		int s;	
 
 		// Powtarzaj dopoki l <= p   

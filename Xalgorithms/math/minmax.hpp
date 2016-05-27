@@ -3,8 +3,10 @@
 namespace Xalgorithms {
 
 	template<typename T>
-	T min(const T* array, size_t size)
+	T min(const T* array)
 	{
+		size_t size = (sizeof(array) / sizeof(array[0]));
+
 		// W przypadu gdy size == 0 wystapi assercja
 		assert(size > 0);
 		// Na poczatku wartosc minimalna rowna sie pierwszemu elementowi tablicy   
@@ -27,8 +29,10 @@ namespace Xalgorithms {
 	// wskazanej przez "array" o rozmiarze "size" elementow
 	// Przyjete zostalo zalozenie ze size > 0
 	template<typename T>
-	T max(const T* array, size_t size)
+	T max(const T* array)
 	{
+		size_t size = (sizeof(array) / sizeof(array[0]));
+
 		// W przypadu gdy size == 0 wystapi assercja
 		assert(size > 0);
 		// Na poczatku wartosc maksymalna rowna sie pierwszemu elementowi tablicy   
