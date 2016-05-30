@@ -48,5 +48,14 @@
     <ClInclude Include="string.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="sorting\bubblesort.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sorting\insertionsort.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sorting\selectionsort.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

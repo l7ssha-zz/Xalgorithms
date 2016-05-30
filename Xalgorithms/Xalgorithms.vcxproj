@@ -119,6 +119,9 @@
     <ClInclude Include="math\hmi.hpp" />
     <ClInclude Include="math\minmax.hpp" />
     <ClInclude Include="math\search.hpp" />
+    <ClInclude Include="sorting\bubblesort.hpp" />
+    <ClInclude Include="sorting\insertionsort.hpp" />
+    <ClInclude Include="sorting\selectionsort.hpp" />
     <ClInclude Include="string.hpp" />
     <ClInclude Include="strings\up_lower_case_string.hpp" />
   </ItemGroup>
