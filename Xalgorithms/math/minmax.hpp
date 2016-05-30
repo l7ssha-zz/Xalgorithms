@@ -25,9 +25,6 @@ namespace Xalgorithms {
 		return min;
 	}
 
-	// Funkcja zwraca najwiekszy element tablicy typu szablonowego T
-	// wskazanej przez "array" o rozmiarze "size" elementow
-	// Przyjete zostalo zalozenie ze size > 0
 	template<typename T>
 	T max(const T* array)
 	{
