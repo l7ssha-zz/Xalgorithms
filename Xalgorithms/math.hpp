@@ -10,3 +10,6 @@
 #include "math\binsearch.hpp"
 #include "math\digitsum.hpp"
 #include "math\search.hpp"
+
+#include "math\arithmetic\factorial.hpp"
+#include "math\arithmetic\fibb.hpp"
