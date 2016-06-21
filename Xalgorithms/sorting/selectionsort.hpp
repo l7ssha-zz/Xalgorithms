@@ -1,9 +1,9 @@
 #pragma once
 
 template <typename T>
-void selectionsort(T tablica)
+void selectionsort(T* tablica)
 {
-	int ile_liczb = (sizeof(tab) / sizeof(tab[0]));	//obliczanie ilosci elementow w talblicy 
+	int ile_liczb = (sizeof(tab) / sizeof(tab[0]));	//obliczanie ilosci elementow w tablicy 
 
 	//tymaczasowe zmienne
 	int min;

@@ -57,5 +57,14 @@
     <ClInclude Include="sorting\selectionsort.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="sort.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math\arithmetic\factorial.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math\arithmetic\fibb.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
